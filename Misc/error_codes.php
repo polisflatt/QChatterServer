@@ -1,0 +1,31 @@
+<?php
+    /* Magic numbers for error codes */
+
+    define("E_CHANNEL_DOES_HAVE_PASSWORD", 10201);
+    define("E_CHANNEL_DOES_NOT_HAVE_PASSWORD", 10200);
+    
+    define("E_CHANNEL_PASSWORD_DENIED", 102080);
+    define("E_CHANNEL_PASSWORD_ACCEPTED", 102081);
+    define("E_CHANNEL_PASSWORD_MISMATCH", 105200);
+
+    define("E_CHANNEL_DOES_EXIST", 1071);
+    define("E_CHANNEL_DOES_NOT_EXIST", 1070);
+
+    define("E_MASTERPASSWORD_STRCMP_FAILED", 25200);
+
+    define("E_USER_PASSWORD_DENIED", 302080);
+    define("E_USER_PASSWORD_CONFIRMATION_FAILURE", 30200);
+
+    define("E_USER_CREDENTIALS_MISMATCH", 90000);
+    define("E_USER_CREDENTIALS_MATCH", 90001);
+
+    define("E_USER_IS_IN_CHANNEL", 40001);
+    define("E_USER_IS_NOT_IN_CHANNEL", 40000);
+    define("E_USER_CHANNEL_DATA_DOES_NOT_EXIST", 50000);
+
+    define("E_USER_EXISTS_ALREADY", 40005);
+
+    define("E_MESSAGE_CHAR_LIMIT_EXCEEDED", 797979);
+
+    /* End */
+?>
