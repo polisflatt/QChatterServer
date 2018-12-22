@@ -17,7 +17,7 @@ To host you need:
  
  You must place QChatterServer into a directory, of which your HTTPD is hosting. You must then create a **channel** and **user** folder in the directory that QChatterServer is in. This is required.
 
-Then, get your QChatter client, and connect. I'm hosting a server at https://teamweflatt.ddns.net/QChatterServer/
+Then, get your QChatter client, and connect. I'm hosting a server at https://teamweflatt.ddns.net/QChatter/QChatterServer/
 
 
 Right now, this program is:
