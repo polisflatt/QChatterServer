@@ -1,6 +1,8 @@
 # QChatterServer
 The QChatterServer source code.
 
+REST API FOUND HERE: http://teamweflatt.ddns.net/QChatter/web/docs/
+
 *QChatterServer, version 1.0*
 
 QChatter is a free method of textual communication between two or more parties. QChatter does not attempt to compete with any other service or method of communication; however, it tries to emulate very important facets of a modern textual communication program.
