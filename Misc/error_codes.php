@@ -27,5 +27,8 @@
 
     define("E_MESSAGE_CHAR_LIMIT_EXCEEDED", 797979);
 
+    define("E_COMMAND_DOES_NOT_EXIST", 20102);
+    define("E_COMMAND_INCORRECT_NUMBER_OF_ARGUMENTS", 20103);
+
     /* End */
 ?>

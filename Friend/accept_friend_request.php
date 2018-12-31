@@ -1,11 +1,13 @@
 <?php
+    /* Experimental */
+    
     require "../Misc/user.php";
 	require "../Misc/show_errors.php";
 	require "../Misc/error_codes.php";
 	require "../Misc/friend.php";
     
     $user = $_POST["username"];
-    $user_to = $_POST["user_to"];
+    $user_from = $_POST["user_from"];
     $password = $_POST["password"];
 
 
@@ -14,6 +16,6 @@
         exit();
     }
 
-    accept_friend_request($user, $user_to);
+    accept_friend_request($user, $user_from);
     
 ?>

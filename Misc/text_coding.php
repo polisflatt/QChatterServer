@@ -1,5 +1,9 @@
 <?php
+    /* Library to translate codes into certain JSON status's that your client interprets */
+
+    
     /* Bloated, but useful! */
+
     require_once "../Settings/messages.php";
 
     define("FONT_ITALICS_CHARACTER", "*");

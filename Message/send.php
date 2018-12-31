@@ -1,5 +1,8 @@
 <?php
 	//require "../Misc/show_errors.php"; 
+	
+	/* Library */
+
 	require "../Misc/channel_func.php";
 	require "../Misc/error_codes.php";
 	require "../Misc/user.php";
@@ -39,11 +42,18 @@
 
 	$title_status = "";
 
-	if (is_op_in_channel($channel, $title)) {
+	/* Determine status; however, this can be implemented better. */
+
+	if (is_op_in_channel($channel, $title)) 
+	{
 		$title_status = (string) C_U_MASTER;
-	} else if (get_user_status($title) == (string) U_BOT) {
+	} 
+	else if (get_user_status($title) == (string) U_BOT) 
+	{
 		$title_status = (string) C_U_BOT;
-	} else {
+	} 
+	else 
+	{
 		$title_status = (string) C_U_NORMAL;
 	}
 

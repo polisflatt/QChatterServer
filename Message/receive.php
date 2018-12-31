@@ -1,4 +1,4 @@
-<?php
+<?php /* Deprecated */
 	require "../Misc/show_errors.php";
 	require "../Misc/error_codes.php";
 	require "../Misc/channel_func.php";

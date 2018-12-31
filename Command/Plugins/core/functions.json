@@ -1,0 +1,22 @@
+[
+    {
+        "alias": "help",
+        "function": "core_function_help"
+    }, 
+    {
+        "alias": "helloworld",
+        "function": "core_function_helloworld"
+    },
+    {
+        "alias": "echo",
+        "function": "core_function_echo"
+    },
+    {
+        "alias": "loop_echo",
+        "function": "core_function_loop_echo"
+    },
+    {
+        "alias": "server_announce",
+        "function": "core_function_announce"
+    }
+]

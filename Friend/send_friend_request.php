@@ -1,4 +1,6 @@
 <?php
+	/* Experimental */
+
 	require "../Misc/user.php";
 	require "../Misc/show_errors.php";
 	require "../Misc/error_codes.php";
@@ -16,7 +18,7 @@
 	}
 
 	if (!user_exists($user_to)) {
-		print("0");
+		print(NULL);
 		exit();
 	}
 

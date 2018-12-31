@@ -1,0 +1,18 @@
+[
+    {
+        "alias": "help",
+        "help": "'help' is a command which prints a defined usage for a given command. (usage: help [command])"
+    },
+    {
+        "alias": "echo",
+        "help": "'echo' is a command which simply returns what you put in. Simple as that. (usage: echo [something])"
+    },
+    {
+        "alias": "loop_echo",
+        "help": "'loop_echo' is a command which returns what you say, to how many times you define. (usage: loop_echo [something] [count])"
+    },
+    {
+        "alias": "helloworld",
+        "help": "'helloworld' is a command that prints helloworld. (usage: helloworld)"
+    }
+]

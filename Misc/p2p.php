@@ -1,6 +1,7 @@
 <?php
     require "server.php";
 
+    /* Deprecated */
 
     function gen_ip_encrypted($server_key, $key) {
 
