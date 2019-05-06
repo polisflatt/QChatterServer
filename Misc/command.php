@@ -91,7 +91,7 @@
 
         $exec_command = $exec_command . ");";
 
-        return $exec_command;
+        return "";
 
         
     }
