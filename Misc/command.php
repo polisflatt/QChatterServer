@@ -62,7 +62,7 @@
 
         if (!array_key_exists($command_split_command, $GLOBALS["commands_avaliable"])) {
             return false;
-        }
+        } /* Protection against UTTER ANHILIATION! */
 
         $function_name = $GLOBALS["commands_avaliable"][$command_split_command];
 
@@ -91,7 +91,7 @@
 
         $exec_command = $exec_command . ");";
 
-        return "";
+        return $exec_command;
 
         
     }
