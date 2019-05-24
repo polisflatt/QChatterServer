@@ -20,7 +20,7 @@
 
 
     define("C_U_NORMAL", 0);
-    define("C_U_MASTER", 1); /* Hope I don't trigger leftists! */
+    define("C_U_MASTER", 1); /* Hope I don't trigger leftists (well, now that I think of it now, radical progressivists. Still not removing this line, because I believe in freedom of expression and speech)! */
     define("C_U_BOT", 2);
 
 
@@ -38,6 +38,7 @@
         $file_contents = "";
         
         /* Shitty code! */
+        /* Also experimental */
 
         foreach (explode(PHP_EOL, file_get_contents("../../channel/$channel/typing.txt")) as $user ) { /* For every user, loop through them, and add them; however, if we find our user, don't add him; remove him. */
             if ($user == $user_in) {
